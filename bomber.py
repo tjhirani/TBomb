@@ -562,7 +562,7 @@ elif type == 0:
             input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 maxlim = 0
 if cc == "91":
-    maxlim = 5000
+    maxlim = 500
 else:
     maxlim = 100
 if nm > maxlim:
